@@ -1,0 +1,16 @@
+{
+    "server" : {
+        "app_path" : "./test_app",
+        "ip" : "127.0.0.1",
+        "port" : 80,
+        "queue" : 5,
+        "buffer_size" : 1024
+    },
+    "urls" : {
+        "/" : "/htm/index.htm",
+        "/index" : "/htm/index.htm",
+        "/index.htm" : "/htm/index.htm",
+        "/404" : "/htm/404.htm",
+        "/404.htm" : "/htm/404.htm"
+    }
+}
